@@ -2,6 +2,8 @@
 
 An autonomous reasoning agent for solving ARC-AGI visual reasoning tasks by inferring transformations from input-output examples. The system analyzes grid structure and objects, generates candidate transformations, searches over possible transformation programs, verifies candidates against training examples, and applies successful programs to unseen test inputs.
 
+**Author:** Abukar Aweis
+
 > This project was completed as part of Georgia Tech's CS 7637: Knowledge-Based AI course. Course-provided framework and evaluation files are not included in this repository. I wrote all code in `ArcAgent.py` and `Utilities.py`, and I wrote the accompanying project report.
 
 ## Results
