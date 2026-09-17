@@ -72,11 +72,11 @@ Below is an example ARC-AGI task successfully solved by the agent.
   <img src="assets/6150a2bd_training.png" width="350">
 </p>
 
-In the figure, **Train Data In** and **Train Data Out** show the example input-output pairs used to infer the underlying transformation. **Test Data In** is the unseen input, and **Test Data Out** is the output produced by the agent.
+In the figure above, **Train Data In** and **Train Data Out** show the example input-output pairs used to infer the underlying transformation. **Test Data In** is the unseen input, and **Test Data Out** is the output produced by the agent.
 
 ### More Complex Solved Example
 
-Task `f8a8fe49` required more complex object and spatial reasoning than the previous example. The agent identified the relevant object relationships and applied the learned transformation successfully to the unseen test input.
+Task `f8a8fe49` shown below required more complex object and spatial reasoning than the previous example. The agent identified the relevant object relationships and applied the learned transformation successfully to the unseen test input.
 
 <p align="center">
   <img src="assets/f8a8fe49_training.png" width="350">
@@ -84,7 +84,7 @@ Task `f8a8fe49` required more complex object and spatial reasoning than the prev
 
 ### Hidden-Test Generalization Failure
 
-Task `e9b4f6fc` is an example where the agent correctly matched all provided training examples but failed on the hidden test case.
+Task `e9b4f6fc` shown below is an example where the agent correctly matched all provided training examples but failed on the hidden test case.
 
 Because the hidden test input and expected output were not revealed to me, the exact failure cannot be visualized. The training examples are shown below to illustrate the type of pattern from which the agent attempted to generalize.
 
